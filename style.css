@@ -3,8 +3,10 @@
     height: 25em;
     background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
     display: flex;
+    background-repeat: no-repeat;
     justify-content: center;
-
+    background-size: 100%;
+    background-color: rgba(245, 245, 220, 0.676);
 
 }
 *{
@@ -76,17 +78,18 @@ width: 80em;
     /* background-color: white; */
     height: 3em;
     align-items: center;
+    /* font: 1em solid bolder; */
 
 
 }
 .selectto{
-    border-top-left-radius: 4px;
- border-bottom-left-radius: 4px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
     display: flex;
     background-color: white;
     color:white;
-   justify-content: space-evenly;
-    padding:0em 1em ;
+    justify-content: space-evenly;
+    padding:0em 0em ;
    
     
 }
@@ -94,10 +97,11 @@ width: 80em;
     background-color: white;
     color:black;
     box-sizing: inherit;
-    width: 15em;
+    width: 14em;
     height: 4em;
- padding: 1em 1em;
- font-family: Arial, Helvetica, sans-serif;
+    padding: 0em 0em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 0em;
 
 outline-style: none;
 border-style: none;
@@ -105,24 +109,28 @@ border-style: none;
 
 }
 .select-one{
-    border-top-left-radius: 4px;
- border-bottom-left-radius: 4px;
-    background-color: white;
+    border-top-left-radius: 10px;
+ border-bottom-left-radius: 10px;
+ background-color: white;
     /* color:black; */
  /* box-sizing: inherit; */
- height: 3em;
- padding: 1em 0em;
-outline-style: none;
-border-style: none;
+  height: 3em;
+  padding: 1em 1em;
+  /* outline-style: none; */
+  /* border-style: none; */
 }
 .inp{
-    width: 35em;
+    width: 36em;
     height: 4em;
     box-sizing: inherit;
-    padding: 1em;
+    padding: 0.1em;
     outline: none;
     border: none;
-    font-style: 15px;
+    font-style: 20px;
+    font-weight: 200;
+    font: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    
 
 }
 .input{
@@ -132,11 +140,13 @@ border-style: none;
     padding:0em 1em ;
     outline: none;
     border: none;
-    border-top-right-radius: 4px;
- border-bottom-right-radius: 4px;
+    border-top-right-radius: 10px;
+ border-bottom-right-radius: 10px;
  font-family: Arial, Helvetica, sans-serif;
 }
-
+.inp::placeholder{
+font-size: 17px;
+}
 .svn{
     
     height: 3em; 
@@ -147,27 +157,417 @@ border-style: none;
 .bg{
     background-color: white;
     backface-visibility: visible;
+    font: 5em;
     padding: 1em 0em;
+    margin: 0%;
+    
 }
 
 option{
  font-family: Arial, Helvetica, sans-serif;
 font-weight: 500;
+font-style: normal;
+font: 15px solid bolder;
 }
 
 .card{
   display: flex;
   justify-content: space-between;
-padding: 7em 0em;
-}
-.card-one{
-    padding: 2em;
+  padding: 7rem 0em;
+  flex-wrap: wrap;
+
+  height: 2rem;
 
 }
+.an{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-one{
+    
+    /* padding: 1px; */
+    border: 0.1px solid gainsboro;
+    height: 16rem;
+    border-radius: 16px;
+    width: 22.5rem;
+  
+}
+
+
+
 .img{
-   padding: 3em;
-   height: 2em;
-   width: 10px;
-   /* height: 100px; */
+    border-top-left-radius:16px;
+    border-top-right-radius: 16px;
+    height: 60%;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.card-one:hover{
+    
+    height: 18rem;
+    border-radius: 16px;
+    width: 23.2rem; 
+
+    margin: -0.5rem -0.5rem;
+}
+
+.order{
+padding: 0rem 1rem;
+padding-top: 1rem;
+font-family:Arial, Helvetica, sans-serif;
+font-size: x-large;
+font-weight: 100;
+color: black;
+
+}
+.span{
+    padding: 0rem 1rem;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.a{
+   text-decoration: none;
+    color: whitesmoke;
+}
+.swap{
+padding:  12rem 0rem;
+
+}
+.p2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    padding: 1rem 0rem;
+}
+.p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:1rem;
+    color: color-mix(in srgb, black 80%, white 20%);
+}
+.p3{ 
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:1rem;
+    padding: 0rem 0rem;
+    color: red; 
+    text-decoration: none;
+    
+}
+
+.div{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0rem;
+}
+.swap-two{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0rem;
+}
+.swap-child{
+height: 22rem;
+width: 17rem;
+/* border: 1px groove; */
+}
+.anchor{
+    position: relative;
+    text-decoration: none;
+
+}
+.img1{
+    height: 22rem;
+    width: 17rem;
+    border-radius: 1rem;
+    
+
+}
+.p4{
+    position: absolute;
+    bottom: 3rem;
+    left: 1rem;
+    height: 1rem;
+    color: whitesmoke;
+    font-size:19px;
+    font-weight: 500;
+    font-style: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.p5{
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.p8{
+    font-size: xx-large;
+
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2rem 0em;
+    color:color-mix(in lab, black 70%, white 10%);
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 22rem 22rem 22rem;
+    justify-content: center;
+    gap: 1rem 2rem;
+    /* border: 1px groove; */
+    /* background-color: yellow; */
+    flex-wrap: wrap;
+}
+.grid-child{
+    
+  border: 0.1px solid gainsboro;
+  width: 22rem;
+  height: 5rem;
+  padding: 1rem;
+  border-radius:7px;
    
+}
+.grid-child:hover{
+box-shadow: 0px 0px 2px 2px gainsboro;
+
+}
+.p6{
+    display: flex;
+    justify-content: space-between;
+font-size: 1.3rem;
+color:color-mix(in lab, black 70%, white 10%);
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.p7{
+    font-size: 1rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color:color-mix(in lab, black 70%, white 10%);
+
+}
+.anc{
+    text-decoration: none;
+}
+.app{
+    margin: 5em 0em;
+    background-color: floralwhite;
+    color: floralwhite;
+padding: 5em 7em;
+    display: grid;
+    grid-template-columns:  25rem 40rem;
+   box-sizing: border-box;
+   resize: none;
+}
+.app-one{
+padding: 5rem 3rem;
+/* background-color:beige; */
+}
+.img4{
+    height: 16rem;
+    width: 16rem;
+}
+.app-two{
+    /* background-color:beige; */
+}
+.get-one{
+    color:color-mix(in lab, black 80%, white 10%);
+    font-size:40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1rem 0rem;
+}
+.get-two{
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:color-mix(in lab, black 70%, white 10%);
+    padding: 1rem 0rem;
+}
+.get-three{
+    padding: 1.5rem 0rem;
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.inpb{
+    margin: 0rem 2rem;
+    font-size: xx-large;
+   background-color:color-mix(in lab, black 70%, white 10%);
+    
+
+
+}
+.inpa{
+    font-size: large;
+    color:color-mix(in lab, black 70%, white 10%);
+}
+.get-four{
+    padding: 0.5em 0rem;
+}
+.inp2{
+  height: 3rem;
+  width: 15rem;
+  border-radius: 7px;
+  border: 1px solid gainsboro;
+  /* border: none; */
+  padding: 1rem;
+  background-color: whitesmoke;
+  
+}
+.inp2::placeholder{
+  
+    font-size:17px;
+   
+}
+.btn2{
+    height: 3rem;
+    width: 8rem;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    background-color:color-mix(in srgb,red 70% , white 20%);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn2:hover{
+background-color: red;
+}
+.get-five{
+    color:color-mix(in lab, black 70%, white 10%);
+    padding: 1.1rem 0rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.get-six{
+padding: 0rem 0rem;
+}
+.img3{
+    height: 2.5rem;
+    width: 8rem;
+}
+
+.p9{
+     font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif; 
+    color:color-mix(in lab, black 70%, white 10%);
+/* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+
+}
+.one{
+    /* display: flex;
+    justify-content: space-between; */
+    width: 100%;
+    height: 5rem;
+    border: 0.1px solid gainsboro;
+    margin: 1rem 0rem;
+    padding: 1.5rem;
+    border-radius: 5px;
+    background-color: white;
+
+}
+.dd{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* height: 5rem; */
+    /* border: 0.1px solid gainsboro; */
+    /* margin: 1rem 0rem; */
+    /* padding: 1.5rem; */
+    /* border-radius: 5px; */
+    background-color: white;
+
+}
+
+.p10{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+color:color-mix(in lab, black 70%, white 10%);
+font-size: 17px;
+font-weight: -100;
+}
+.last-parent{
+
+margin-top: 7em;
+background-color:color-mix(in srgb, darkgrey 5%, white 90%);
+
+}
+
+.last{
+    display: flex;
+    justify-content: space-between;
+    padding:1rem 0rem ;
+}
+.last-a{
+    color:color-mix(in lab, black 70%, white 10%);
+    font-size: 17px;
+    font-weight: -100;
+    width: 8rem;
+    border-radius: 5px;
+    margin: 0em 0.5rem;
+height: 3rem;
+border: 0.1px solid gainsboro;
+padding: 0.8rem;
+display: flex;
+
+}
+
+.last-two{
+    display: flex;
+    justify-content: space-between;
+    padding:1rem 0rem ;
+}
+.pp{
+   padding: 0.5rem 0rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color:color-mix(in lab, black 90%, white 10%);
+    font-weight: 500;
+}
+.ppp{
+   padding: 0.5rem 0rem;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color:color-mix(in lab, black 50%, white 10%);
+}
+.img5{
+    
+    height: 2.5rem;
+    width: 8rem;
+}
+.aa{
+    font-size: 23px;
+    color:color-mix(in lab, black 80%, white 10%);
+    border-radius: 100%;
+
+}
+.p11{
+    font-size:13px ;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2rem 0rem;
+    color:color-mix(in lab, black 50%, white 10%);
+}
+hr{
+    border: 0.1px solid gainsboro;
+
+}
+
+
+/* togle start here  */
+
+
+.toggle{
+   display: none;
+    padding: 0rem 1rem;
+    align-items:self-end
+  
+}
+
+.o{
+    font-size: 2rem;
+    color:color-mix(in lab, black 50%, white 10%);
+}
+.a1{
+    color:color-mix(in lab, black 50%, white 10%);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-transform: inherit;
+    padding: 0em 2px;
 }
